@@ -18,30 +18,19 @@ Allow the user to choose topping(s) and size for the pizza(s) they'd like to ord
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
-Give examples
+Web browser
 ```
 
-### Installing
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-## Authors
+HTML,CSS,Bootstrap,Javascript, JQuery
 
-* **Victor Puentes** **Charlie Kelson** **Andrew Parks** - *Initial work* -
+## Author
+
+* **Victor Puentes** - *Initial work* -
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc

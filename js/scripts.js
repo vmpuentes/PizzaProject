@@ -16,14 +16,18 @@ Pizza.prototype.calculatePizzaPrice = function() {
 return (this.price * this.quantity + this.toppings.length);
 }
 
-function Pizza.orderPizza();
+function Pizza = orderPizza() {
+  $("form#calculate").val();
+  $("form-group.toppings");
+};
 //User Interface logic
 $(document).ready(function() {
   $("form#calcualte").click(function(event) {
     event.preventDefault();
     console.log("hello")
     var pizza = new Pizza();
+    $("button#currentbalance").append();
+    console.log("hello");
+     $("")
   });
 });
-
-["soycheese", "brown rice flour", "kale","tempei cubes"."low-sodium tomato sauce","flax seed"]
