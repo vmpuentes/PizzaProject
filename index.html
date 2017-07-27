@@ -12,49 +12,45 @@
     <div class="container">
       <div class="jumbotron">
         <h1><center>Mimi's Macrobiotic Pizza</center></h1>
-      </div>
-        <img src="C:\Users\swhit\desktop\PizzaProject\img\spacepizza.gif"></img>
-      <div class="background-image">
-        <img src="img/space-pizza.jpg"</img>
-      </div>
-      <div class="row">
-        <div class="col-md-5 box">
-          <h2>Order your Pizza Online!</h2>
-          <form id="pizzaInput">
-            <div class="form-group">
-              <label for="yourpizza">Name:</label>
-              <input type=selector id="yourname">
-            </div>
-            <div class="form-group">
-              <label for="initial-order">Order Size:<label>
-              <input type="checkbox" name="size" value="Small">Small</label>
-              <input type="checkbox" name="size" value="Medium">Medium</label>
-              <input type="checkbox" name="size" value="Large">Large</label>
+          <div class="background-image">
+            <img src="img/space-pizza.jpg"</img>
+          </div>
+            <form id="pizzaInput">
+              <div class="row">
+                <div class="col-md-5 box">
+                  <h2>Order your Pizza Online!</h2>
+                <div class="form-group">
+                  <label for="yourpizza">Name:</label>
+                  <input type="text" id="yourName"></input>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" id="size">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-5 box">
+                <h2>Toppings</h2>
+              <div class="form-group">
+                <label for="topping">Here are the toppings to choose from...</label>
+                <input type="checkbox" name="toppings" value="Soycheese">Soycheese<br>
+                <input type="checkbox" name="toppings" value="BrownRiceFlour">Brown Rice Flour<br>
+                <input type="checkbox" name="toppings" value="Kale">Kale<br>
+                <input type="checkbox" name="toppings" value="Tempei Cubes">Tempei Cubes<br>
+                <input type="checkbox" name="toppings" value="Low-Sodium Tomato Sauce">Low-Sodium Tomato Sauce<br>
+                <input type="checkbox" name="toppings" value="Tempei Cubes">Tempei Cubes<br>
+                <input type="checkbox" name="toppings" value="Flax Seed">Flax Seed<br>
+              </div>
             </div>
           </div>
-          <div class="col-md-5 box">
-            <h2>Toppings</h2>
-            <div class="form-group">
-              <label for="topping">Here are the toppings to choose from...</label>
-              <input type="checkbox" name="toppings" value="Soycheese">Soycheese<br>
-              <input type="checkbox" name="toppings" value="BrownRiceFlour">Brown Rice Flour<br>
-              <input type="checkbox" name="toppings" value="Kale">Kale<br>
-              <input type="checkbox" name="toppings" value="Tempei Cubes">Tempei Cubes<br>
-              <input type="checkbox" name="toppings" value="Low-Sodium Tomato Sauce">Low-Sodium Tomato Sauce<br>
-              <input type="checkbox" name="toppings" value="Tempei Cubes">Tempei Cubes<br>
-              <input type="checkbox" name="toppings" value="Flax Seed">Flax Seed<br>
-            </div>
+          <div class="row">
+            <button id="calculate" type="submit" class="btn-info">Calculate Price</button>
+              <!-- <h3>Total:</h3>
+              <h3>Thank you for choosing Mimi's Macrobiotic Pizza</h3> -->
           </div>
-        </div>
-        <div class="row">
-          <button id="calculate" type="click" class="btn-info">Calculate Price</button>
-        </div>
-        <div class="row box">
-          <div id="currentbalance">
-            <h3>Total:</h3>
-            <h3>Thank you for choosing Mimi's Macrobiotic Pizza</h3>
-          </form>
-        </div>
+        </form>
       </div>
     </div>
   </body>
