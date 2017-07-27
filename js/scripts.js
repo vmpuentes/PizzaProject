@@ -1,10 +1,9 @@
 //business logic
 
-function Pizza (quantity,size) {
+function Pizza (toppings,size) {
   this.toppings = [];
   this.price = 10;
   this.pizzaSize = size;
-  this.quantity = quantity;
 }
 
 Pizza.prototype.calculatePizzaPrice = function() {
@@ -22,12 +21,13 @@ function Pizza = orderPizza() {
 };
 //User Interface logic
 $(document).ready(function() {
-  $("form#calcualte").click(function(event) {
+  $("form#pizzaInput").submit(function(event) {
     event.preventDefault();
     console.log("hello")
     var pizza = new Pizza();
-    $("button#currentbalance").append();
-    console.log("hello");
-     $("")
+     var newToppings = $("input:checkbox[name=toppings]:checked").val();     
+      $("input:checkbox[name=size]:checked").val();
+        $("button#calculate").append();
+
   });
 });
