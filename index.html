@@ -25,15 +25,15 @@
                 </div>
                 <div class="form-group">
                   <select class="form-control" id="size">
-                    <option>Small</option>
-                    <option>Medium</option>
-                    <option>Large</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
                   </select>
                 </div>
               </div>
               <div class="col-md-5 box">
                 <h2>Toppings</h2>
-              <div class="form-group">
+              <div class="form-group" id="toppings">
                 <label for="topping">Here are the toppings to choose from...</label>
                 <input type="checkbox" name="toppings" value="Soycheese">Soycheese<br>
                 <input type="checkbox" name="toppings" value="BrownRiceFlour">Brown Rice Flour<br>
@@ -47,6 +47,8 @@
           </div>
           <div class="row">
             <button id="calculate" type="submit" class="btn-info">Calculate Price</button>
+              <div id="result">
+                <output></output>
               <!-- <h3>Total:</h3>
               <h3>Thank you for choosing Mimi's Macrobiotic Pizza</h3> -->
           </div>
