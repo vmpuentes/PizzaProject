@@ -11,7 +11,7 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1><center>Mimi's Macrobiotic pizza</center></h1>
+        <h1><center>Mimi's Macrobiotic Pizza</center></h1>
       </div>
         <img src="C:\Users\swhit\desktop\PizzaProject\img\spacepizza.gif"></img>
       <div class="background-image">
@@ -34,24 +34,25 @@
             <h2>Toppings</h2>
             <div class="form-group">
               <label for="topping">Here are the toppings to choose from...</label>
-              <input class="topping" type="selector">
+                <input type="checkbox" name="toppings" value="Soycheese">Soycheese<br>
+                <input type="checkbox" name="toppings" value="BrownRiceFlour">Brown Rice Flour<br>
+                <input type="checkbox" name="toppings" value="Kale">Kale<br>
+                <input type="checkbox" name="toppings" value="Tempei Cubes">Tempei Cubes<br>
+                <input type="checkbox" name="toppings" value="Low-Sodium Tomato Sauce">Low-Sodium Tomato Sauce<br>
+                <input type="checkbox" name="toppings" value="Tempei Cubes">Tempei Cubes<br>
+                <input type="checkbox" name="toppings" value="Flax Seed">Flax Seed<br>
             </div>
-              <label for="calculate">Calculate Price:</label>
-              <input class="calculate" type="text">
-          </div>
-          <div class="row"?
-            <button type="calculate">Calculate Price:</button>
           </div>
         </div>
         <div class="row">
-          <button type="click">Calculate Price</button>
+          <button id="calculate" type="click">Calculate Price</button>
 
         </div>
       </form>
         <div class="row box">
           <div id="currentbalance">
             <h3>Total:</h3>
-          <div class="outputReading">
+          <div class="finalprice">
             <h4>Thank you for choosing Mimi's Macrobiotic Pizza</h4>
           </div>
         </div>

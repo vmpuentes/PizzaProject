@@ -1,22 +1,29 @@
 //business logic
 
-function Pizza (pizzaNew,toppings,price,size) {
-  this.toppings = toppings; ["soycheese", "brown rice flour crust", "wasabi", "jalapenos", "veagan tempei cubes"."low-sodium tomato sauce","chicharonnis","canadadian bacon","mustard"];
-  this.price = price; ["$10","$15","$20"]
-  this.size = size; ["small","medium","large"];
-}
-var orderedPizza = new Pizza ("toppings","size","price")
-
-function Customer () {
-  this.name = name;
-  cost = []
+function Pizza (quantity,size) {
+  this.toppings = [];
+  this.price = 10;
+  this.pizzaSize = size;
+  this.quantity = quantity;
 }
 
-Pizza.prototype.orderPizzaSize = function("small","medium","large") {
-  this.size
+Pizza.prototype.calculatePizzaPrice = function() {
+  if (this.pizzaSize === "medium") {
+  return (this.price * this.quantity + this.toppings.length) + 5;
+  } else if (this.pizzaSize === "large") {
+  return (this.price * this.quantity + this.toppings.length) + 10;
+} else {
+return (this.price * this.quantity + this.toppings.length);
+}
+
+function Pizza.orderPizza();
 //User Interface logic
 $(document).ready(function() {
-  $().click(function(event)[
+  $("form#calcualte").click(function(event) {
+    event.preventDefault();
+    console.log("hello")
+    var pizza = new Pizza();
+  });
+});
 
-  ]
-}
+["soycheese", "brown rice flour", "kale","tempei cubes"."low-sodium tomato sauce","flax seed"]
