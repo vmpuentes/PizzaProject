@@ -1,3 +1,6 @@
+#output {
+  display: none;
+}
 body {
   background-image: url("C:\Users\swhit\desktop\PizzaProject\img\spacepizza.gif");
 }
