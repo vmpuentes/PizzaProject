@@ -49,8 +49,7 @@ $(document).ready(function() {
 
 
     // $("button#calculate").append('<div class="form-group">' + '<label for="new-order"> Here is your Order</label>' + Pizza.calculatePizzaPrice() + '<output type="text" class="form-control">' + '</div>');
-  });
-  });
+
     //$("form-group#size").val();
     //var inputtedToppings = $("form-group#toppings");
     //var pizza = new Pizza();
