@@ -31,22 +31,22 @@ return (this.price + this.toppings.length * .5);
 $(document).ready(function() {
   $("form#pizzaInput").submit(function(event) {
     event.preventDefault();
-
-    debugger;
     var inputtedName = $("#yourName").val();
     var pizzaSize = $("#size").val();
     var pizza = new Pizza(pizzaSize);
-
-    $("input:checkbox[name=toppings]:checked").each(function() {
+      $("input:checkbox[name=toppings]:checked").each(function() {
       var toppingsSelected = $(this).val();
       pizza.toppings.push(toppingsSelected);
     });
     var calculatePrice = pizza.calculatePizzaPrice();
     $("#customerName").append(inputtedName);
-    $("#toppingsOutput").append(pizza.toppings.toString());
-    $("#pizzaSize").append(pizzaSize);
-    $("#pizzaPrice").append("$" + pizza.calculatePizzaPrice());
-    $("#output").show();
+      $("#toppingsShown").append(pizza.toppings.toString());
+        $("#pizzaSizeShown").append(pizzaSize);
+          $("#pizzaPriceShown").append("$" + pizza.calculatePizzaPrice());
+            $("#output").show();
+          });
+        });
+
 
     // $("button#calculate").append('<div class="form-group">' + '<label for="new-order"> Here is your Order</label>' + Pizza.calculatePizzaPrice() + '<output type="text" class="form-control">' + '</div>');
   });

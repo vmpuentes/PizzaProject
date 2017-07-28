@@ -2,13 +2,21 @@
   display: none;
 }
 body {
+  font-family: inherit;
   background-image: url("C:\Users\swhit\desktop\PizzaProject\img\spacepizza.gif");
 }
 h1 {
-  background-image: url("C:\Users\swhit\desktop\PizzaProject\img\spacepizza.gif")
+  font-size: 50px;
+  background-image: url("C:\Users\swhit\desktop\PizzaProject\img\spacepizza.gif");
+  background-position: center;
 }
 .jumbotron {
-  background-image: url("C:\Users\swhit\desktop\PizzaProject\img\spacepizza.gif");
+  font-size: 25px;
+  font-style: oblique;
+  color: red;
+  font-weight: bold;
+  background-color: #ffee88;
+  background-image: url(...\img\cute-pizza-wallpaper-photo.jpg);
 }
 h1 {
   background-image: url("C:\Users\swhit\desktop\PizzaProject\img\spacepizza.gif")

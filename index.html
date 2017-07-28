@@ -13,18 +13,19 @@
       <div class="jumbotron">
         <h1><center>Mimi's Macrobiotic Pizza</center></h1>
           <div class="background-image">
-            <img src="img/space-pizza.jpg"</img>
+            <img src="img/space-pizza.jpg"></img>
           </div>
             <form id="pizzaInput">
               <div class="row">
                 <div class="col-md-5 box">
                   <h2>Order your Pizza Online!</h2>
                 <div class="form-group">
-                  <label for="yourpizza">Name:</label>
+                  <label for="yourpizza">Enter Your Name Here:</label>
                   <input type="text" id="yourName"></input>
                 </div>
                 <div class="form-group">
                   <select class="form-control" id="size">
+                    <option>Select Your Size</option>
                     <option>Small</option>
                     <option>Medium</option>
                     <option>Large</option>
@@ -34,7 +35,7 @@
               <div class="col-md-5 box">
                 <h2>Toppings</h2>
               <div class="form-group">
-                <label for="topping"> Here are the toppings to choose from...</label><br>
+                <label for="topping"><h3>Here are the toppings to choose from...</h3></label><br>
                 <input type="checkbox" name="toppings" value="Soycheese">Soycheese<br>
                 <input type="checkbox" name="toppings" value="BrownRiceFlour">Brown Rice Flour<br>
                 <input type="checkbox" name="toppings" value="Kale">Kale<br>
@@ -52,9 +53,9 @@
       </div>
       <div id="output">
         <p>Name: <span id="customerName"></span></p>
-        <p>Toppings: <span id="toppingsOutput"></span></p>
-        <p>Size: <span id="pizzaSize"></span></p>
-        <p>price: <span id="pizzaPrice"></span></p>
+        <p>Toppings: <span id="toppingsShown"></span></p>
+        <p>Size: <span id="pizzaSizeShown"></span></p>
+        <p>price: <span id="pizzaPriceShown"></span></p>
 
 
       </div>
